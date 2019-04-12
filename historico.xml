@@ -1,0 +1,43 @@
+<historicoEscolar>
+    <matricula>2016999950</matricula>
+    <nomeAluno>rodrigo machado</nomeAluno>
+    <cpf>179.999.999-06</cpf>
+    <academico>
+        <periodo>
+            <numero>1</numero>
+            <cr>7.0</cr>
+            <listaDisciplinas>
+                <disciplina>
+                    <nomeDisciplina>computação 1</nomeDisciplina>
+                    <codDisciplina>im412</codDisciplina>       
+                    <nota>6.5</nota>         
+                    <situacao>aprovado</situacao>
+                </disciplina>
+                <disciplina>
+                    <nomeDisciplina>matemática discreta</nomeDisciplina>
+                    <codDisciplina>im413</codDisciplina>       
+                    <nota>7.5</nota>         
+                    <situacao>aprovado</situacao>
+                </disciplina>
+            </listaDisciplinas>
+        </periodo>
+        <periodo>
+            <numero>2</numero>
+            <cr>5.5</cr>
+            <listaDisciplinas>
+                <disciplina>
+                    <nomeDisciplina>computação 2</nomeDisciplina>
+                    <codDisciplina>im422</codDisciplina>       
+                    <nota>4.0</nota>         
+                    <situacao>reprovado</situacao>
+                </disciplina>
+                <disciplina>
+                    <nomeDisciplina>circuitos digitais</nomeDisciplina>
+                    <codDisciplina>im424</codDisciplina>       
+                    <nota>7.0</nota>         
+                    <situacao>aprovado</situacao>
+                </disciplina>
+            </listaDisciplinas>
+        </periodo>
+    </academico>
+</historicoEscolar>

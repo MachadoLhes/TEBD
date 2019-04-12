@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<xsd:schema>
+	<xsd:element name="historicoEscolar">
+	  <xsd:complexType>
+		<xsd:sequence>
+		  <xsd:element name="matricula" type="xsd:string"/>
+		  <xsd:element name="nomeAluno" type="xsd:string"/>
+		  <xsd:element name="cpf" type="xsd:string"/>
+		  <xsd:element name="academico">
+				<xsd:complexType>
+				  <xsd:sequence>
+				  	<xsd:element name="periodo">
+				  		<xsd:complexType>
+				  			<xsd:sequence>
+				  				<xsd:element name="cr" type="xsd:float">
+				  				<xsd:element name="numero" type="xsd:int">
+				  				<xsd:element name="disciplinas">
+				  					<xsd:complexType>
+				  						<xsd:sequence>
+							  				<xsd:element name="nomeDisciplina">
+							  					<xsd:complexType>
+									  				<xsd:element name="nome" type="xsd:string">
+									  				<xsd:element name="codDisciplina" type="xsd:string">
+									  				<xsd:element name="nota" type="xsd:float">
+									  				<xsd:element name="situacao" type="xsd:string">
+										  		</xsd:complexType>
+								  			</xsd:element>
+							  			</xsd:sequence>
+				  					</xsd:complexType>
+				  				</xsd:element>
+					  		</xsd:sequence>
+				  		</xsd:complexType>
+		  			</xsd:element>
+			  	</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			</xsd:sequence>
+	  </xsd:complexType>
+	</xsd:element>
+</xsd:schema> 
